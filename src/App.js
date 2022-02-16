@@ -4,11 +4,11 @@ import "./App.css";
 
 function App() {
   const textInput = useRef(null);
+  const password = "rdz484zfc87ef8454fe5";
   function handleClick() {
     textInput.current.focus();
 
-    textInput.current.innerHTML =
-      "<img src='x' onerror='alert(\"I m Mr ROBOT !\")'>";
+    textInput.current.innerHTML = `<img src='x' onerror='alert(\"I m Mr ROBOT !\ ${password}")'>`;
   }
   return (
     <div className="App">
