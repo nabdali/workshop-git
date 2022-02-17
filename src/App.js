@@ -9,6 +9,11 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>
+          Env : {process.env.REACT_APP_VERCEL_ENV}, commit :{" "}
+          {process.env.REACT_APP_VERCEL_GIT_COMMIT_MESSAGE}, by:{" "}
+          {process.env.REACT_APP_VERCEL_GIT_COMMIT_AUTHOR_NAME}
+        </p>
         <a
           about="App-link"
           href="https://reactjs.org"
