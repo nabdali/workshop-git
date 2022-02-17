@@ -7,15 +7,21 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          {" "}
           Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <p>
+          Env : {process.env.REACT_APP_VERCEL_ENV}, commit :{" "}
+          {process.env.REACT_APP_VERCEL_GIT_COMMIT_MESSAGE}, by:{" "}
+          {process.env.REACT_APP_VERCEL_GIT_COMMIT_AUTHOR_NAME}
         </p>
         <a
           about="App-link"
-          href="https://reactjs.org"
+          href="https://git-scm.com/doc"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn Git
         </a>
       </header>
     </div>

@@ -32,5 +32,4 @@
 ## Déploiement
 - Merger la PR
 - Montrer le déclenchement du déploiement en env DEV
-- Créer une branche release et pousser, montrer le déploiement en TEST
-- Merger le release branche dans main, monter le déploiement en PROD
+- Merger la branche develop dans main, monter le déploiement en PROD
